@@ -80,7 +80,7 @@ console.log("data mentah:", data_mentah)
 
 function updateSelect() {
     select_kopi.innerHTML = '<option selected disabled>-</option>'
-    Object.keys(data_mentah).forEach(function (op   si) {
+    Object.keys(data_mentah).forEach(function (opsi) {
         select_kopi.innerHTML += '<option value="' + opsi + '">' + opsi + '</option>'
     })
     console.log("Melakukan Update Select")
